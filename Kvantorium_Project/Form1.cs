@@ -10,11 +10,44 @@ using System.Windows.Forms;
 
 namespace Kvantorium_Project
 {
-    public partial class Form1 : Form
+    public partial class FormMenu : Form
     {
-        public Form1()
+        public FormMenu()
         {
             InitializeComponent();
+        }
+
+        private void buttonSotrud_Click(object sender, EventArgs e)
+        {
+            Form formsotr = new FormSotrud();
+            formsotr.Show();
+        }
+
+        private void buttonPostav_Click(object sender, EventArgs e)
+        {
+            Form formpost = new FormPostav();
+            formpost.Show();
+        }
+
+        private void buttonUchetPostav_Click(object sender, EventArgs e)
+        {
+            Form formuchet = new FormUchetPostav();
+            formuchet.Show();
+        }
+
+        private void buttonGetOborud_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonPeredachaOborud_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonAllReport_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
