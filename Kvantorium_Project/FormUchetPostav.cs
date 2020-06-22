@@ -35,9 +35,11 @@ namespace Kvantorium_Project
                 ListViewItem item = new ListViewItem(new string[]
                 {
                     up.IdPostav.ToString(),
-                    up.Postav.FirstName + "." + up.Postav.LastName,
+                    up.Postav.FirstName + up.Postav.LastName,
+                    up.Id.ToString(),
+                    up.Oborud,
                     up.DatePostav,
-                    up.Price, up.Oborud
+                    up.Price
                 });
                 item.Tag = up;
                 listViewUchet.Items.Add(item);

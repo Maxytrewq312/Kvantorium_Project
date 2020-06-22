@@ -37,17 +37,19 @@ namespace Kvantorium_Project
 
         private void buttonGetOborud_Click(object sender, EventArgs e)
         {
-
+            Form formget = new FormGetOborud();
+            formget.Show();
         }
 
         private void buttonPeredachaOborud_Click(object sender, EventArgs e)
         {
-
+            Form formpered = new FormPeredachaOborud();
+            formpered.Show();
         }
-
-        private void buttonAllReport_Click(object sender, EventArgs e)
+        private void buttonOborud_Click(object sender, EventArgs e)
         {
-
+            Form formobor = new FormOborud();
+            formobor.Show();
         }
     }
 }

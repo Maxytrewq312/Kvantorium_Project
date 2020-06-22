@@ -8,7 +8,7 @@ namespace Kvantorium_Project
 {
     static class Program
     {
-        public static Kvantorium_ProjectEntities3 KPDB = new Kvantorium_ProjectEntities3();
+        public static Kvantorium_ProjectEntities13 KPDB = new Kvantorium_ProjectEntities13();
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
@@ -17,7 +17,7 @@ namespace Kvantorium_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMenu());
+            Application.Run(new FormAutorization());
         }
     }
 }

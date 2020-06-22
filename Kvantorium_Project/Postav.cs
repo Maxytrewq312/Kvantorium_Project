@@ -17,6 +17,7 @@ namespace Kvantorium_Project
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Postav()
         {
+            this.GetOborudovanie = new HashSet<GetOborudovanie>();
             this.UchetPostav = new HashSet<UchetPostav>();
         }
     
@@ -27,6 +28,8 @@ namespace Kvantorium_Project
         public string TimeWork { get; set; }
         public string MediumPrice { get; set; }
     
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<GetOborudovanie> GetOborudovanie { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<UchetPostav> UchetPostav { get; set; }
     }

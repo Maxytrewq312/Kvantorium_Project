@@ -12,14 +12,14 @@ namespace Kvantorium_Project
     using System;
     using System.Collections.Generic;
     
-    public partial class UchetPostav
+    public partial class Autorization
     {
         public int Id { get; set; }
-        public int IdPostav { get; set; }
-        public string Oborud { get; set; }
-        public string DatePostav { get; set; }
-        public string Price { get; set; }
+        public int IdReg { get; set; }
+        public string Login { get; set; }
+        public string Password { get; set; }
+        public string TypeUser { get; set; }
     
-        public virtual Postav Postav { get; set; }
+        public virtual Registration Registration { get; set; }
     }
 }

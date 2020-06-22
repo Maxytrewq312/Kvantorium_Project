@@ -38,15 +38,16 @@
             this.textBoxOborud = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.listViewUchet = new System.Windows.Forms.ListView();
+            this.Id = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Postav = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.IdObor = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Oborud = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.DatePostav = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Price = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.buttonUpdate = new System.Windows.Forms.Button();
             this.buttonDel = new System.Windows.Forms.Button();
             this.buttonEdit = new System.Windows.Forms.Button();
             this.buttonAdd = new System.Windows.Forms.Button();
-            this.Id = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Postav = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.DatePostav = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Price = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Oborud = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,7 +63,7 @@
             // labelDatePostav
             // 
             this.labelDatePostav.AutoSize = true;
-            this.labelDatePostav.Location = new System.Drawing.Point(19, 104);
+            this.labelDatePostav.Location = new System.Drawing.Point(19, 208);
             this.labelDatePostav.Name = "labelDatePostav";
             this.labelDatePostav.Size = new System.Drawing.Size(116, 19);
             this.labelDatePostav.TabIndex = 1;
@@ -71,7 +72,7 @@
             // labelPrice
             // 
             this.labelPrice.AutoSize = true;
-            this.labelPrice.Location = new System.Drawing.Point(19, 197);
+            this.labelPrice.Location = new System.Drawing.Point(19, 301);
             this.labelPrice.Name = "labelPrice";
             this.labelPrice.Size = new System.Drawing.Size(130, 19);
             this.labelPrice.TabIndex = 2;
@@ -80,7 +81,7 @@
             // labelOborud
             // 
             this.labelOborud.AutoSize = true;
-            this.labelOborud.Location = new System.Drawing.Point(19, 296);
+            this.labelOborud.Location = new System.Drawing.Point(19, 116);
             this.labelOborud.Name = "labelOborud";
             this.labelOborud.Size = new System.Drawing.Size(105, 19);
             this.labelOborud.TabIndex = 3;
@@ -96,21 +97,21 @@
             // 
             // textBoxDatePostav
             // 
-            this.textBoxDatePostav.Location = new System.Drawing.Point(23, 127);
+            this.textBoxDatePostav.Location = new System.Drawing.Point(23, 231);
             this.textBoxDatePostav.Name = "textBoxDatePostav";
             this.textBoxDatePostav.Size = new System.Drawing.Size(214, 26);
             this.textBoxDatePostav.TabIndex = 5;
             // 
             // textBoxPrice
             // 
-            this.textBoxPrice.Location = new System.Drawing.Point(23, 219);
+            this.textBoxPrice.Location = new System.Drawing.Point(23, 323);
             this.textBoxPrice.Name = "textBoxPrice";
             this.textBoxPrice.Size = new System.Drawing.Size(214, 26);
             this.textBoxPrice.TabIndex = 6;
             // 
             // textBoxOborud
             // 
-            this.textBoxOborud.Location = new System.Drawing.Point(23, 318);
+            this.textBoxOborud.Location = new System.Drawing.Point(23, 138);
             this.textBoxOborud.Name = "textBoxOborud";
             this.textBoxOborud.Size = new System.Drawing.Size(214, 26);
             this.textBoxOborud.TabIndex = 7;
@@ -130,27 +131,58 @@
             this.listViewUchet.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.Id,
             this.Postav,
+            this.IdObor,
+            this.Oborud,
             this.DatePostav,
-            this.Price,
-            this.Oborud});
+            this.Price});
             this.listViewUchet.FullRowSelect = true;
             this.listViewUchet.GridLines = true;
             this.listViewUchet.HideSelection = false;
             this.listViewUchet.Location = new System.Drawing.Point(256, 21);
             this.listViewUchet.MultiSelect = false;
             this.listViewUchet.Name = "listViewUchet";
-            this.listViewUchet.Size = new System.Drawing.Size(756, 398);
+            this.listViewUchet.Size = new System.Drawing.Size(918, 398);
             this.listViewUchet.TabIndex = 19;
             this.listViewUchet.UseCompatibleStateImageBehavior = false;
             this.listViewUchet.View = System.Windows.Forms.View.Details;
             this.listViewUchet.SelectedIndexChanged += new System.EventHandler(this.listViewUchet_SelectedIndexChanged);
+            // 
+            // Id
+            // 
+            this.Id.Text = "Id поставщика";
+            this.Id.Width = 123;
+            // 
+            // Postav
+            // 
+            this.Postav.Text = "Имя и отчество поставщика";
+            this.Postav.Width = 224;
+            // 
+            // IdObor
+            // 
+            this.IdObor.Text = "Id оборудования";
+            this.IdObor.Width = 132;
+            // 
+            // Oborud
+            // 
+            this.Oborud.Text = "Оборудование";
+            this.Oborud.Width = 152;
+            // 
+            // DatePostav
+            // 
+            this.DatePostav.Text = "Дата поставки";
+            this.DatePostav.Width = 130;
+            // 
+            // Price
+            // 
+            this.Price.Text = "Стоимость услуг";
+            this.Price.Width = 152;
             // 
             // buttonUpdate
             // 
             this.buttonUpdate.BackColor = System.Drawing.Color.DarkGray;
             this.buttonUpdate.FlatAppearance.BorderSize = 0;
             this.buttonUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonUpdate.Location = new System.Drawing.Point(816, 477);
+            this.buttonUpdate.Location = new System.Drawing.Point(981, 477);
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.Size = new System.Drawing.Size(196, 48);
             this.buttonUpdate.TabIndex = 23;
@@ -163,7 +195,7 @@
             this.buttonDel.BackColor = System.Drawing.Color.DarkGray;
             this.buttonDel.FlatAppearance.BorderSize = 0;
             this.buttonDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonDel.Location = new System.Drawing.Point(614, 477);
+            this.buttonDel.Location = new System.Drawing.Point(779, 477);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(196, 48);
             this.buttonDel.TabIndex = 22;
@@ -176,7 +208,7 @@
             this.buttonEdit.BackColor = System.Drawing.Color.DarkGray;
             this.buttonEdit.FlatAppearance.BorderSize = 0;
             this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonEdit.Location = new System.Drawing.Point(412, 477);
+            this.buttonEdit.Location = new System.Drawing.Point(577, 477);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(196, 48);
             this.buttonEdit.TabIndex = 21;
@@ -189,7 +221,7 @@
             this.buttonAdd.BackColor = System.Drawing.Color.DarkGray;
             this.buttonAdd.FlatAppearance.BorderSize = 0;
             this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonAdd.Location = new System.Drawing.Point(210, 477);
+            this.buttonAdd.Location = new System.Drawing.Point(375, 477);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(196, 48);
             this.buttonAdd.TabIndex = 20;
@@ -197,36 +229,12 @@
             this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
-            // Id
-            // 
-            this.Id.Text = "Id поставщика";
-            this.Id.Width = 123;
-            // 
-            // Postav
-            // 
-            this.Postav.Text = "Имя и отчество поставщика";
-            this.Postav.Width = 224;
-            // 
-            // DatePostav
-            // 
-            this.DatePostav.Text = "Дата поставки";
-            this.DatePostav.Width = 130;
-            // 
-            // Price
-            // 
-            this.Price.Text = "Стоимость услуг";
-            this.Price.Width = 152;
-            // 
-            // Oborud
-            // 
-            this.Oborud.Text = "Оборудование";
-            this.Oborud.Width = 123;
-            // 
             // FormUchetPostav
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1024, 537);
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.ClientSize = new System.Drawing.Size(1189, 537);
             this.Controls.Add(this.buttonUpdate);
             this.Controls.Add(this.buttonDel);
             this.Controls.Add(this.buttonEdit);
@@ -242,7 +250,7 @@
             this.Controls.Add(this.labelDatePostav);
             this.Controls.Add(this.labelPostav);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormUchetPostav";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormUchetPostav";
@@ -273,5 +281,6 @@
         private System.Windows.Forms.Button buttonDel;
         private System.Windows.Forms.Button buttonEdit;
         private System.Windows.Forms.Button buttonAdd;
+        private System.Windows.Forms.ColumnHeader IdObor;
     }
 }

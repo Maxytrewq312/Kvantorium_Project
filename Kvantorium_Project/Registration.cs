@@ -12,29 +12,20 @@ namespace Kvantorium_Project
     using System;
     using System.Collections.Generic;
     
-    public partial class Sotrud
+    public partial class Registration
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Sotrud()
+        public Registration()
         {
-            this.GetOborudovanie = new HashSet<GetOborudovanie>();
-            this.PeredachaOborud = new HashSet<PeredachaOborud>();
-            this.PeredachaOborud1 = new HashSet<PeredachaOborud>();
+            this.Autorization = new HashSet<Autorization>();
         }
     
         public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string MiddleName { get; set; }
-        public string LastName { get; set; }
-        public string Position { get; set; }
-        public string TimeWork { get; set; }
-        public string Phone { get; set; }
+        public string Name { get; set; }
+        public string Login { get; set; }
+        public string Password { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<GetOborudovanie> GetOborudovanie { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<PeredachaOborud> PeredachaOborud { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<PeredachaOborud> PeredachaOborud1 { get; set; }
+        public virtual ICollection<Autorization> Autorization { get; set; }
     }
 }

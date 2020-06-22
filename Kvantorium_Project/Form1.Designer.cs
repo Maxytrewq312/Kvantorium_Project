@@ -34,8 +34,8 @@
             this.buttonUchetPostav = new System.Windows.Forms.Button();
             this.buttonGetOborud = new System.Windows.Forms.Button();
             this.buttonPeredachaOborud = new System.Windows.Forms.Button();
-            this.buttonAllReport = new System.Windows.Forms.Button();
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+            this.buttonOborud = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -80,7 +80,7 @@
             this.buttonUchetPostav.BackColor = System.Drawing.Color.DarkGray;
             this.buttonUchetPostav.FlatAppearance.BorderSize = 0;
             this.buttonUchetPostav.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonUchetPostav.Location = new System.Drawing.Point(12, 389);
+            this.buttonUchetPostav.Location = new System.Drawing.Point(12, 464);
             this.buttonUchetPostav.Name = "buttonUchetPostav";
             this.buttonUchetPostav.Size = new System.Drawing.Size(424, 48);
             this.buttonUchetPostav.TabIndex = 4;
@@ -93,7 +93,7 @@
             this.buttonGetOborud.BackColor = System.Drawing.Color.DarkGray;
             this.buttonGetOborud.FlatAppearance.BorderSize = 0;
             this.buttonGetOborud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonGetOborud.Location = new System.Drawing.Point(12, 463);
+            this.buttonGetOborud.Location = new System.Drawing.Point(12, 538);
             this.buttonGetOborud.Name = "buttonGetOborud";
             this.buttonGetOborud.Size = new System.Drawing.Size(424, 48);
             this.buttonGetOborud.TabIndex = 5;
@@ -106,26 +106,13 @@
             this.buttonPeredachaOborud.BackColor = System.Drawing.Color.DarkGray;
             this.buttonPeredachaOborud.FlatAppearance.BorderSize = 0;
             this.buttonPeredachaOborud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonPeredachaOborud.Location = new System.Drawing.Point(12, 537);
+            this.buttonPeredachaOborud.Location = new System.Drawing.Point(12, 612);
             this.buttonPeredachaOborud.Name = "buttonPeredachaOborud";
             this.buttonPeredachaOborud.Size = new System.Drawing.Size(424, 48);
             this.buttonPeredachaOborud.TabIndex = 6;
             this.buttonPeredachaOborud.Text = "Передача оборудования между сотрудниками";
             this.buttonPeredachaOborud.UseVisualStyleBackColor = false;
             this.buttonPeredachaOborud.Click += new System.EventHandler(this.buttonPeredachaOborud_Click);
-            // 
-            // buttonAllReport
-            // 
-            this.buttonAllReport.BackColor = System.Drawing.Color.DarkGray;
-            this.buttonAllReport.FlatAppearance.BorderSize = 0;
-            this.buttonAllReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonAllReport.Location = new System.Drawing.Point(12, 608);
-            this.buttonAllReport.Name = "buttonAllReport";
-            this.buttonAllReport.Size = new System.Drawing.Size(424, 48);
-            this.buttonAllReport.TabIndex = 7;
-            this.buttonAllReport.Text = "Сводная отчетность о текущем балансе оборудования";
-            this.buttonAllReport.UseVisualStyleBackColor = false;
-            this.buttonAllReport.Click += new System.EventHandler(this.buttonAllReport_Click);
             // 
             // pictureBoxLogo
             // 
@@ -137,13 +124,26 @@
             this.pictureBoxLogo.TabIndex = 1;
             this.pictureBoxLogo.TabStop = false;
             // 
+            // buttonOborud
+            // 
+            this.buttonOborud.BackColor = System.Drawing.Color.DarkGray;
+            this.buttonOborud.FlatAppearance.BorderSize = 0;
+            this.buttonOborud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonOborud.Location = new System.Drawing.Point(12, 386);
+            this.buttonOborud.Name = "buttonOborud";
+            this.buttonOborud.Size = new System.Drawing.Size(424, 48);
+            this.buttonOborud.TabIndex = 8;
+            this.buttonOborud.Text = "Оборудование";
+            this.buttonOborud.UseVisualStyleBackColor = false;
+            this.buttonOborud.Click += new System.EventHandler(this.buttonOborud_Click);
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkRed;
-            this.ClientSize = new System.Drawing.Size(448, 668);
-            this.Controls.Add(this.buttonAllReport);
+            this.ClientSize = new System.Drawing.Size(448, 673);
+            this.Controls.Add(this.buttonOborud);
             this.Controls.Add(this.buttonPeredachaOborud);
             this.Controls.Add(this.buttonGetOborud);
             this.Controls.Add(this.buttonUchetPostav);
@@ -152,7 +152,7 @@
             this.Controls.Add(this.pictureBoxLogo);
             this.Controls.Add(this.labelHello);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Главное меню";
@@ -171,7 +171,7 @@
         private System.Windows.Forms.Button buttonUchetPostav;
         private System.Windows.Forms.Button buttonGetOborud;
         private System.Windows.Forms.Button buttonPeredachaOborud;
-        private System.Windows.Forms.Button buttonAllReport;
+        private System.Windows.Forms.Button buttonOborud;
     }
 }
 

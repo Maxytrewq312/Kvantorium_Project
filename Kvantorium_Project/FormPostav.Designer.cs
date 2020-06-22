@@ -38,18 +38,18 @@
             this.textBoxLastName = new System.Windows.Forms.TextBox();
             this.textBoxTimeWork = new System.Windows.Forms.TextBox();
             this.textBoxMediumPrice = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.listViewPostavshiki = new System.Windows.Forms.ListView();
-            this.buttonUpdate = new System.Windows.Forms.Button();
-            this.buttonDel = new System.Windows.Forms.Button();
-            this.buttonEdit = new System.Windows.Forms.Button();
-            this.buttonAdd = new System.Windows.Forms.Button();
             this.Id = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.FirstName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.MiddleName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.LastName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.TimeWork = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.MediumPrice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.buttonUpdate = new System.Windows.Forms.Button();
+            this.buttonDel = new System.Windows.Forms.Button();
+            this.buttonEdit = new System.Windows.Forms.Button();
+            this.buttonAdd = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -107,6 +107,7 @@
             // 
             // textBoxMiddleName
             // 
+            this.textBoxMiddleName.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxMiddleName.Location = new System.Drawing.Point(23, 115);
             this.textBoxMiddleName.Name = "textBoxMiddleName";
             this.textBoxMiddleName.Size = new System.Drawing.Size(215, 26);
@@ -133,16 +134,6 @@
             this.textBoxMediumPrice.Size = new System.Drawing.Size(215, 26);
             this.textBoxMediumPrice.TabIndex = 9;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Kvantorium_Project.Properties.Resources.rmc_mainbanner_kvantorium_1_;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 411);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(104, 104);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 18;
-            this.pictureBox1.TabStop = false;
-            // 
             // listViewPostavshiki
             // 
             this.listViewPostavshiki.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -163,6 +154,35 @@
             this.listViewPostavshiki.UseCompatibleStateImageBehavior = false;
             this.listViewPostavshiki.View = System.Windows.Forms.View.Details;
             this.listViewPostavshiki.SelectedIndexChanged += new System.EventHandler(this.listViewPostavshiki_SelectedIndexChanged);
+            // 
+            // Id
+            // 
+            this.Id.Text = "Id";
+            // 
+            // FirstName
+            // 
+            this.FirstName.Text = "Имя";
+            this.FirstName.Width = 88;
+            // 
+            // MiddleName
+            // 
+            this.MiddleName.Text = "Фамилия";
+            this.MiddleName.Width = 93;
+            // 
+            // LastName
+            // 
+            this.LastName.Text = "Отчество";
+            this.LastName.Width = 97;
+            // 
+            // TimeWork
+            // 
+            this.TimeWork.Text = "Время работы с компанией";
+            this.TimeWork.Width = 218;
+            // 
+            // MediumPrice
+            // 
+            this.MediumPrice.Text = "Средняя стоимость услуг";
+            this.MediumPrice.Width = 223;
             // 
             // buttonUpdate
             // 
@@ -216,39 +236,21 @@
             this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
-            // Id
+            // pictureBox1
             // 
-            this.Id.Text = "Id";
-            // 
-            // FirstName
-            // 
-            this.FirstName.Text = "Имя";
-            this.FirstName.Width = 88;
-            // 
-            // MiddleName
-            // 
-            this.MiddleName.Text = "Фамилия";
-            this.MiddleName.Width = 93;
-            // 
-            // LastName
-            // 
-            this.LastName.Text = "Отчество";
-            this.LastName.Width = 97;
-            // 
-            // TimeWork
-            // 
-            this.TimeWork.Text = "Время работы с компанией";
-            this.TimeWork.Width = 218;
-            // 
-            // MediumPrice
-            // 
-            this.MediumPrice.Text = "Средняя стоимость услуг";
-            this.MediumPrice.Width = 223;
+            this.pictureBox1.Image = global::Kvantorium_Project.Properties.Resources.rmc_mainbanner_kvantorium_1_;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 411);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(104, 104);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
             // 
             // FormPostav
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(1069, 527);
             this.Controls.Add(this.buttonUpdate);
             this.Controls.Add(this.buttonDel);
@@ -267,7 +269,7 @@
             this.Controls.Add(this.labelMiddleName);
             this.Controls.Add(this.labelFirstName);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormPostav";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormPostav";

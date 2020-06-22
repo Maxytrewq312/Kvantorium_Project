@@ -12,14 +12,16 @@ namespace Kvantorium_Project
     using System;
     using System.Collections.Generic;
     
-    public partial class UchetPostav
+    public partial class PeredachaOborud
     {
         public int Id { get; set; }
-        public int IdPostav { get; set; }
-        public string Oborud { get; set; }
-        public string DatePostav { get; set; }
-        public string Price { get; set; }
+        public int IdFirstSotr { get; set; }
+        public int IdSecondSotr { get; set; }
+        public int IdObor { get; set; }
+        public string PurposePeredacha { get; set; }
     
-        public virtual Postav Postav { get; set; }
+        public virtual Oborud Oborud { get; set; }
+        public virtual Sotrud Sotrud { get; set; }
+        public virtual Sotrud Sotrud1 { get; set; }
     }
 }

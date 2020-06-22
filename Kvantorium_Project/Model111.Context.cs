@@ -13,10 +13,10 @@ namespace Kvantorium_Project
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Kvantorium_ProjectEntities3 : DbContext
+    public partial class Kvantorium_ProjectEntities14 : DbContext
     {
-        public Kvantorium_ProjectEntities3()
-            : base("name=Kvantorium_ProjectEntities3")
+        public Kvantorium_ProjectEntities14()
+            : base("name=Kvantorium_ProjectEntities14")
         {
         }
     
@@ -25,7 +25,12 @@ namespace Kvantorium_Project
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Autorization> Autorization { get; set; }
+        public virtual DbSet<GetOborudovanie> GetOborudovanie { get; set; }
+        public virtual DbSet<Oborud> Oborud { get; set; }
+        public virtual DbSet<PeredachaOborud> PeredachaOborud { get; set; }
         public virtual DbSet<Postav> Postav { get; set; }
+        public virtual DbSet<Registration> Registration { get; set; }
         public virtual DbSet<Sotrud> Sotrud { get; set; }
         public virtual DbSet<UchetPostav> UchetPostav { get; set; }
     }
