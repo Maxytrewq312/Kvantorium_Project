@@ -41,6 +41,8 @@
             this.NamepPost = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.IdSotr = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.NamepSotr = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.IdOb = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.NameObor = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.PriceOborud = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.DateVid = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.buttonUpdate = new System.Windows.Forms.Button();
@@ -49,8 +51,6 @@
             this.buttonAdd = new System.Windows.Forms.Button();
             this.labelOborud = new System.Windows.Forms.Label();
             this.comboBoxOborud = new System.Windows.Forms.ComboBox();
-            this.IdOb = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.NameObor = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -164,6 +164,16 @@
             this.NamepSotr.Text = "Имя и отчество сотрудника";
             this.NamepSotr.Width = 222;
             // 
+            // IdOb
+            // 
+            this.IdOb.Text = "Id оборудования";
+            this.IdOb.Width = 124;
+            // 
+            // NameObor
+            // 
+            this.NameObor.Text = "Наименование оборудования";
+            this.NameObor.Width = 212;
+            // 
             // PriceOborud
             // 
             this.PriceOborud.Text = "Цена оборудования";
@@ -179,6 +189,7 @@
             this.buttonUpdate.BackColor = System.Drawing.Color.DarkGray;
             this.buttonUpdate.FlatAppearance.BorderSize = 0;
             this.buttonUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonUpdate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonUpdate.Location = new System.Drawing.Point(1331, 430);
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.Size = new System.Drawing.Size(196, 48);
@@ -192,6 +203,7 @@
             this.buttonDel.BackColor = System.Drawing.Color.DarkGray;
             this.buttonDel.FlatAppearance.BorderSize = 0;
             this.buttonDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonDel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonDel.Location = new System.Drawing.Point(1129, 430);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(196, 48);
@@ -205,6 +217,7 @@
             this.buttonEdit.BackColor = System.Drawing.Color.DarkGray;
             this.buttonEdit.FlatAppearance.BorderSize = 0;
             this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonEdit.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonEdit.Location = new System.Drawing.Point(927, 430);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(196, 48);
@@ -218,6 +231,7 @@
             this.buttonAdd.BackColor = System.Drawing.Color.DarkGray;
             this.buttonAdd.FlatAppearance.BorderSize = 0;
             this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAdd.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAdd.Location = new System.Drawing.Point(725, 430);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(196, 48);
@@ -242,16 +256,6 @@
             this.comboBoxOborud.Name = "comboBoxOborud";
             this.comboBoxOborud.Size = new System.Drawing.Size(214, 27);
             this.comboBoxOborud.TabIndex = 29;
-            // 
-            // IdOb
-            // 
-            this.IdOb.Text = "Id оборудования";
-            this.IdOb.Width = 124;
-            // 
-            // NameObor
-            // 
-            this.NameObor.Text = "Наименование оборудования";
-            this.NameObor.Width = 212;
             // 
             // pictureBox1
             // 

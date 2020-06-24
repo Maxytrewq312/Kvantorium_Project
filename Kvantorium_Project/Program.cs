@@ -8,7 +8,7 @@ namespace Kvantorium_Project
 {
     static class Program
     {
-        public static Kvantorium_ProjectEntities13 KPDB = new Kvantorium_ProjectEntities13();
+        public static Kvantorium_ProjectEntities15 KPDB = new Kvantorium_ProjectEntities15();
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>

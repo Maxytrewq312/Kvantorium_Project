@@ -86,7 +86,7 @@
             // textBoxFirstName
             // 
             this.textBoxFirstName.Location = new System.Drawing.Point(230, 103);
-            this.textBoxFirstName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxFirstName.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxFirstName.Multiline = true;
             this.textBoxFirstName.Name = "textBoxFirstName";
             this.textBoxFirstName.Size = new System.Drawing.Size(400, 26);
@@ -95,7 +95,7 @@
             // textBoxLogin
             // 
             this.textBoxLogin.Location = new System.Drawing.Point(230, 158);
-            this.textBoxLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxLogin.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxLogin.Multiline = true;
             this.textBoxLogin.Name = "textBoxLogin";
             this.textBoxLogin.Size = new System.Drawing.Size(400, 26);
@@ -104,7 +104,7 @@
             // textBoxPassword
             // 
             this.textBoxPassword.Location = new System.Drawing.Point(230, 213);
-            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxPassword.Multiline = true;
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(400, 26);
@@ -115,8 +115,9 @@
             this.buttonRegistr.BackColor = System.Drawing.Color.DarkGray;
             this.buttonRegistr.FlatAppearance.BorderSize = 0;
             this.buttonRegistr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonRegistr.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonRegistr.Location = new System.Drawing.Point(230, 275);
-            this.buttonRegistr.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonRegistr.Margin = new System.Windows.Forms.Padding(4);
             this.buttonRegistr.Name = "buttonRegistr";
             this.buttonRegistr.Size = new System.Drawing.Size(192, 51);
             this.buttonRegistr.TabIndex = 7;
@@ -129,6 +130,7 @@
             this.buttonClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.buttonClose.FlatAppearance.BorderSize = 0;
             this.buttonClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonClose.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonClose.Location = new System.Drawing.Point(12, 360);
             this.buttonClose.Name = "buttonClose";
             this.buttonClose.Size = new System.Drawing.Size(163, 47);
@@ -153,7 +155,7 @@
             this.Controls.Add(this.labelFirstName);
             this.Controls.Add(this.labelRegistr);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormRegistration";
             this.Text = "FormRegistration";
             this.ResumeLayout(false);

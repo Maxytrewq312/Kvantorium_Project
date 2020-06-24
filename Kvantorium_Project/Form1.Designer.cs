@@ -54,6 +54,7 @@
             this.buttonSotrud.BackColor = System.Drawing.Color.DarkGray;
             this.buttonSotrud.FlatAppearance.BorderSize = 0;
             this.buttonSotrud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSotrud.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonSotrud.Location = new System.Drawing.Point(12, 241);
             this.buttonSotrud.Name = "buttonSotrud";
             this.buttonSotrud.Size = new System.Drawing.Size(424, 48);
@@ -67,6 +68,7 @@
             this.buttonPostav.BackColor = System.Drawing.Color.DarkGray;
             this.buttonPostav.FlatAppearance.BorderSize = 0;
             this.buttonPostav.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonPostav.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonPostav.Location = new System.Drawing.Point(12, 315);
             this.buttonPostav.Name = "buttonPostav";
             this.buttonPostav.Size = new System.Drawing.Size(424, 48);
@@ -80,6 +82,7 @@
             this.buttonUchetPostav.BackColor = System.Drawing.Color.DarkGray;
             this.buttonUchetPostav.FlatAppearance.BorderSize = 0;
             this.buttonUchetPostav.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonUchetPostav.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonUchetPostav.Location = new System.Drawing.Point(12, 464);
             this.buttonUchetPostav.Name = "buttonUchetPostav";
             this.buttonUchetPostav.Size = new System.Drawing.Size(424, 48);
@@ -93,6 +96,7 @@
             this.buttonGetOborud.BackColor = System.Drawing.Color.DarkGray;
             this.buttonGetOborud.FlatAppearance.BorderSize = 0;
             this.buttonGetOborud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonGetOborud.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonGetOborud.Location = new System.Drawing.Point(12, 538);
             this.buttonGetOborud.Name = "buttonGetOborud";
             this.buttonGetOborud.Size = new System.Drawing.Size(424, 48);
@@ -106,6 +110,7 @@
             this.buttonPeredachaOborud.BackColor = System.Drawing.Color.DarkGray;
             this.buttonPeredachaOborud.FlatAppearance.BorderSize = 0;
             this.buttonPeredachaOborud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonPeredachaOborud.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonPeredachaOborud.Location = new System.Drawing.Point(12, 612);
             this.buttonPeredachaOborud.Name = "buttonPeredachaOborud";
             this.buttonPeredachaOborud.Size = new System.Drawing.Size(424, 48);
@@ -129,6 +134,7 @@
             this.buttonOborud.BackColor = System.Drawing.Color.DarkGray;
             this.buttonOborud.FlatAppearance.BorderSize = 0;
             this.buttonOborud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonOborud.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonOborud.Location = new System.Drawing.Point(12, 386);
             this.buttonOborud.Name = "buttonOborud";
             this.buttonOborud.Size = new System.Drawing.Size(424, 48);

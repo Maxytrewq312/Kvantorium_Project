@@ -86,6 +86,7 @@
             this.buttonClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.buttonClose.FlatAppearance.BorderSize = 0;
             this.buttonClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonClose.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonClose.Location = new System.Drawing.Point(12, 306);
             this.buttonClose.Name = "buttonClose";
             this.buttonClose.Size = new System.Drawing.Size(163, 47);
@@ -99,6 +100,7 @@
             this.buttonVoity.BackColor = System.Drawing.Color.SteelBlue;
             this.buttonVoity.FlatAppearance.BorderSize = 0;
             this.buttonVoity.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonVoity.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonVoity.Location = new System.Drawing.Point(69, 218);
             this.buttonVoity.Name = "buttonVoity";
             this.buttonVoity.Size = new System.Drawing.Size(229, 48);
@@ -112,6 +114,7 @@
             this.buttonRegistr.BackColor = System.Drawing.Color.SteelBlue;
             this.buttonRegistr.FlatAppearance.BorderSize = 0;
             this.buttonRegistr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonRegistr.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonRegistr.Location = new System.Drawing.Point(326, 218);
             this.buttonRegistr.Name = "buttonRegistr";
             this.buttonRegistr.Size = new System.Drawing.Size(229, 48);
@@ -135,7 +138,7 @@
             this.Controls.Add(this.labelLogin);
             this.Controls.Add(this.labelVvod);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormAutorization";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormAutorization";
