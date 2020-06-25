@@ -10,7 +10,7 @@
         <EntityTypeShape EntityType="Kvantorium_ProjectModel.Oborud" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
         <EntityTypeShape EntityType="Kvantorium_ProjectModel.PeredachaOborud" Width="1.5" PointX="10.25" PointY="5.125" IsExpanded="true" />
         <EntityTypeShape EntityType="Kvantorium_ProjectModel.Postav" Width="1.5" PointX="7.625" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="Kvantorium_ProjectModel.Registration" Width="1.5" PointX="3.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kvantorium_ProjectModel.Registration" Width="1.5" PointX="3.25" PointY="1.875" IsExpanded="true" />
         <EntityTypeShape EntityType="Kvantorium_ProjectModel.Sotrud" Width="1.5" PointX="10.25" PointY="1.25" IsExpanded="true" />
         <EntityTypeShape EntityType="Kvantorium_ProjectModel.UchetPostav" Width="1.5" PointX="4.875" PointY="6.25" IsExpanded="true" />
         <AssociationConnector Association="Kvantorium_ProjectModel.FK_Autorization_Registration1" ManuallyRouted="false" />

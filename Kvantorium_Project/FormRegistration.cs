@@ -27,9 +27,14 @@ namespace Kvantorium_Project
             Registration reg = new Registration();
             reg.Name = textBoxFirstName.Text;
             reg.Login = textBoxLogin.Text;
-            reg.Password = textBoxLogin.Text;
+            reg.Password = textBoxPassword.Text;
+            Autorization aut = new Autorization();
+            aut.Login = textBoxLogin.Text;
+            aut.Password = textBoxPassword.Text;
             Program.KPDB.Registration.Add(reg);
+            Program.KPDB.Autorization.Add(aut);
             Program.KPDB.SaveChanges();
+            this.Close();
         }
     }
 }

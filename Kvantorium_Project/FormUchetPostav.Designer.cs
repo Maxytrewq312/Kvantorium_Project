@@ -40,7 +40,6 @@
             this.listViewUchet = new System.Windows.Forms.ListView();
             this.Id = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Postav = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.IdObor = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Oborud = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.DatePostav = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Price = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -131,7 +130,6 @@
             this.listViewUchet.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.Id,
             this.Postav,
-            this.IdObor,
             this.Oborud,
             this.DatePostav,
             this.Price});
@@ -156,11 +154,6 @@
             // 
             this.Postav.Text = "Имя и отчество поставщика";
             this.Postav.Width = 224;
-            // 
-            // IdObor
-            // 
-            this.IdObor.Text = "Id оборудования";
-            this.IdObor.Width = 132;
             // 
             // Oborud
             // 
@@ -285,6 +278,5 @@
         private System.Windows.Forms.Button buttonDel;
         private System.Windows.Forms.Button buttonEdit;
         private System.Windows.Forms.Button buttonAdd;
-        private System.Windows.Forms.ColumnHeader IdObor;
     }
 }

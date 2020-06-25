@@ -36,7 +36,6 @@ namespace Kvantorium_Project
                 {
                     up.IdPostav.ToString(),
                     up.Postav.FirstName + up.Postav.LastName,
-                    up.Id.ToString(),
                     up.Oborud,
                     up.DatePostav,
                     up.Price
